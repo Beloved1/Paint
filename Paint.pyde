@@ -2,7 +2,9 @@ def setup():
     size(600, 600)
     background(255)
     
+    fill(0)
     rect (120,120, 400, 400)
+    fill(255)
     rect (177,180, 343, 270)
     fill(225,200,0)
     rect (130,140, 20, 20)
@@ -16,6 +18,8 @@ def setup():
     rect (130,222, 20, 20)
     fill(random(255), random(255), random(255))
     rect (130,243, 20, 20)
+    
+    
  
 def draw():
     if mousePressed and (mouseX>180 and mouseX<=515) and (mouseY>200 and mouseY<450):
